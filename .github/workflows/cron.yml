@@ -18,9 +18,9 @@
       - name: Set up NodeJS
         uses: actions/setup-node@v3.1.1
         with:
-          node-version: '>=14.0.0'
+          node-version: '14'
       - name: Generate README.md
-        run: cd ./scripts/readme/ && npm ci && node readme
+        run: cd ./scripts/readme/ && npm install && node readme
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
