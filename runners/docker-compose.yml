@@ -1,0 +1,15 @@
+services:
+  runner:
+    platform: linux/amd64
+    restart: always
+    build:
+      context: ../../gh-runners
+      dockerfile: Dockerfile
+    image: gh_runner
+    volumes:
+      - "./hostedtools:/opt/hostedtools"
+    environment:
+      GH_ORG: beepsdev
+      GH_TOKEN: ${PAT}
+    deploy:
+      replicas: 1
