@@ -27,12 +27,7 @@
       - name: Set up NodeJS
         uses: actions/setup-node@v3.1.1
         with:
-          node-version: '14'
-
-      - name: Set up NodeJS
-        uses: actions/setup-node@v3.1.1
-        with:
-          node-version: '14'
+          node-version: '18'
 
       - name: Generate README.md
         run: cd ./scripts/readme/ && npm install && node readme
