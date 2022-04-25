@@ -4,7 +4,7 @@ services:
     platform: linux/amd64
     restart: always
     build:
-      context: ../../gh-runners
+      context: .
       dockerfile: Dockerfile
     image: gh_runner
     volumes:

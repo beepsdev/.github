@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 LABEL maintainer="git@beeps.dev"
 
-RUN apt-get update -y && apt-get install curl liblttng-ust1 libkrb5-3 zlib1g libicu-dev jq -y
+RUN apt-get update -y && apt-get install curl liblttng-ust1 libkrb5-3 zlib1g libicu-dev jq git -y
 
 ENV AGENT_TOOLSDIRECTORY=/opt/hostedtools
 RUN mkdir -p /opt/hostedtools
