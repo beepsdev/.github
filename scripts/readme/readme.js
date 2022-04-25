@@ -40,11 +40,15 @@ async function loadStatus(){
 
             if(response.status === 200){
                 result.push(`${emoji.ok} [${site.name}](${site.link}) `);
+                console.log(` ${site.name} => OK`)
             }else{
                 result.push(`${emoji.warn} (${response.statusText}) [${site.name}](${site.link}) `);
+                console.log(` ${site.name} => WARN`)
             }
         }catch(ex){
             result.push(`${emoji.error} [${site.name}](${site.link}) `);
+            console.log(` ${site.name} => ERROR`);
+            console.error(ex);
         }
     }
 
