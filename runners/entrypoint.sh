@@ -1,4 +1,10 @@
 #!/bin/bash
+rm -rf /app/
+cp -R /template /app/
+cd /app/
+
+sleep $[ ( $RANDOM % 15 )  + 1 ]s
+
 export RUNNER_ALLOW_RUNASROOT=1
 export GH_REGISTRATION_KEY=$(curl \
   -X POST \

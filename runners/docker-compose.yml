@@ -1,6 +1,7 @@
 services:
 
   runner:
+    stop_signal: SIGTERM
     platform: linux/amd64
     restart: always
     build:

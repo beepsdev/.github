@@ -11,12 +11,6 @@
 
   jobs:
 
-    refresh_runner:
-      runs-on: [self-hosted]
-      steps:
-        - name: Runner Task
-          run: echo "Hello, Please end this runner. :)"
-
     update_readme:
       runs-on: [self-hosted]
       steps:
