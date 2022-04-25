@@ -9,3 +9,19 @@
       steps:
         - name: Runner Task
           run: echo "Hello, Please end this runner. :)"
+
+    update_readme:
+      runs-on: [self-hosted]
+      steps:
+      - name: Clone Repo
+        uses: actions/checkout@v3
+      - name: Set up NodeJS
+        uses: actions/setup-node@v3.1.1
+        with:
+          node-version: '>=14.0.0'
+      - name: Generate README.md
+        run: cd ./scripts/readme/ && npm ci && node readme
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,4 +1,5 @@
 services:
+
   runner:
     platform: linux/amd64
     restart: always
@@ -12,4 +13,15 @@ services:
       GH_ORG: beepsdev
       GH_TOKEN: ${PAT}
     deploy:
-      replicas: 1
+      replicas: 3
+
+  proxy:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
