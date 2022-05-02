@@ -2,7 +2,7 @@
 
 This organization hosts projects by [@beepsterr](https://github.com/BeepSterr)
 ## System Status
-- 🟥 [Personal Website](https://beeps.dev) 
+- 🟩 [Personal Website](https://beeps.dev) 
 - 🟩 [awoo.download](https://awoo.download) 
 - 🟩 [tomestone.app](https://tomestone.app) 
 ## Why an organization?
