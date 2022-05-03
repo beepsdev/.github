@@ -25,7 +25,7 @@ A small blog where I rant about bad customer support experiences.
 ## Builds
 ### [beepsdev/BetterKeepInventory](https://github.com/beepsdev/BetterKeepInventory)
 
-`8 days ago` [Download Build](https://github.com/beepsdev/BetterKeepInventory/suites/6253665598/artifacts/222679607)
+`3 minutes ago` [Download Build](https://github.com/beepsdev/BetterKeepInventory/suites/6362281681/artifacts/229823257)
 ### [beepsdev/FiniteNetherite](https://github.com/beepsdev/FiniteNetherite)
 
 `8 days ago` [Download Build](https://github.com/beepsdev/FiniteNetherite/suites/6253876859/artifacts/222683470)
