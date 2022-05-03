@@ -13,8 +13,6 @@ services:
     environment:
       GH_ORG: beepsdev
       GH_TOKEN: ${PAT}
-    deploy:
-      replicas: 3
 
   proxy:
     image: 'jc21/nginx-proxy-manager:latest'
