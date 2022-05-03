@@ -4,3 +4,4 @@
 /runners/.env
 /runners/data/
 /runners/letsencrypt/
+/scripts/readme/.env

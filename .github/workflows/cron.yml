@@ -24,6 +24,8 @@
           node-version: '18'
 
       - name: Generate README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: cd ./scripts/readme/ && npm install && node readme
 
       - name: Commit & Push changes

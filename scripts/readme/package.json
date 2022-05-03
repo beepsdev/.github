@@ -1,6 +1,7 @@
 {
   "name": "readme_updater",
   "version": "1.0.0",
+  "type": "module",
   "description": "updates the readme",
   "main": "readme.js",
   "scripts": {
@@ -10,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "handlebars": "^4.7.7",
-    "moment": "^2.29.3"
+    "moment": "^2.29.3",
+    "octokit": "^1.7.1"
   }
 }
