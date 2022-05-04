@@ -40,15 +40,20 @@ export class Builds extends Section {
                 run_id: response_run.data.workflow_runs[0].id
             });
 
-            const run = response_run.data.workflow_runs[0];
-            const artifact = response_artifact.data.artifacts[0];
-
             const repo_id = `${repo.owner}/${repo.repo}`
             const repo_url = `https://github.com/${repo.owner}/${repo.repo}`
-            const artifact_url = `${repo_url}/suites/${run.check_suite_id}/artifacts/${artifact.id}`
-            const time_of_build = moment(artifact.created_at).fromNow();
+            
+            const run = response_run.data.workflow_runs[0];
+            const artifact = response_artifact.data.artifacts[0];
+            
+            if(run && artifact){
+                const artifact_url = `${repo_url}/suites/${run.check_suite_id}/artifacts/${artifact.id}`
+                const time_of_build = moment(artifact.created_at).fromNow();
+                builds.push(`### [${repo_id}](${repo_url})\n\n\`${time_of_build}\` [Download Build](${artifact_url})`)
+            }else{
+                builds.push(`### [${repo_id}](${repo_url})\n\n\Build unavailable...`)
+            }
 
-            builds.push(`### [${repo_id}](${repo_url})\n\n\`${time_of_build}\` [Download Build](${artifact_url})`)
 
         }
 
