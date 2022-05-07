@@ -9,7 +9,7 @@ If any of them are red. Please let me know :)
 #### 🟩 Personal Website
 
 My personal website hosted on [NeoCities](https://neocities.org/)
-#### 🟩 awoo.download
+#### 🟥 awoo.download
 
 Small file sharing service for me and some friends :)
 #### 🟩 awoo.to
