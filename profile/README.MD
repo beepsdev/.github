@@ -15,7 +15,7 @@ Small file sharing service for me and some friends :)
 #### 🟩 awoo.to
 
 Link shortener, Currently borked
-#### 🟩 digmine.fun
+#### 🟨 digmine.fun `404 - Not Found`
 
 A Minecraft server I run, Come and hop on if you'd like!
 #### 🟨 shittysupport.net `404 - Not Found`
