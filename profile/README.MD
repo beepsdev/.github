@@ -12,7 +12,7 @@ My personal website hosted on [NeoCities](https://neocities.org/)
 #### 🟩 awoo.download
 
 Small file sharing service for me and some friends :)
-#### 🟩 awoo.to
+#### 🟨 awoo.to `504 - Gateway Time-out`
 
 Link shortener, Currently borked
 #### 🟨 digmine.fun `404 - Not Found`
