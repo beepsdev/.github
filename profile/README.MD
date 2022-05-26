@@ -18,7 +18,7 @@ Link shortener, Currently borked
 #### 🟨 digmine.fun `404 - Not Found`
 
 A Minecraft server I run, Come and hop on if you'd like!
-#### 🟨 shittysupport.net `404 - Not Found`
+#### 🟩 shittysupport.net
 
 A small blog where I rant about bad customer support experiences.
 
