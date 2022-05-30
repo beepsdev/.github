@@ -81,9 +81,9 @@ export class Sites extends Section {
                 const response = result.response;
 
                 if(response.ok){
-                    replacements.push(`#### [${Sites.marks.ok}](${site.link}) ${site.name}\n\n${site.description}`);
+                    replacements.push(`#### [${Sites.marks.ok} ${site.name}](${site.link})\n\n${site.description}`);
                 }else{
-                    replacements.push(`#### [${Sites.marks.warn}](${site.link}) ${site.name} \`${response.status} - ${response.statusText}\`\n\n${site.description}`);
+                    replacements.push(`#### [${Sites.marks.warn} ${site.name}](${site.link}) \`${response.status} - ${response.statusText}\`\n\n${site.description}`);
                 }
 
 
