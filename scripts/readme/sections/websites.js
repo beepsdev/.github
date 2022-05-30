@@ -32,23 +32,8 @@ export class Sites extends Section {
             name: "awoo.to",
             description: "Link shortener, Currently borked",
             link: "https://awoo.to"
-        },
-
-        // My minecraft server
-        {
-            url: "https://digmine.fun",
-            name: "digmine.fun",
-            description: "A Minecraft server I run, Come and hop on if you'd like!",
-            link: "https://digmine.fun"
-        },
-
-        // My minecraft server
-        {
-            url: "https://shittysupport.net",
-            name: "shittysupport.net",
-            description: "A small blog where I rant about bad customer support experiences.",
-            link: "https://shittysupport.net"
-        },
+        }
+        
 
     ]
 
@@ -96,9 +81,9 @@ export class Sites extends Section {
                 const response = result.response;
 
                 if(response.ok){
-                    replacements.push(`#### ${Sites.marks.ok} ${site.name}\n\n${site.description}`);
+                    replacements.push(`#### [${Sites.marks.ok}](${site.link}) ${site.name}\n\n${site.description}`);
                 }else{
-                    replacements.push(`#### ${Sites.marks.warn} ${site.name} \`${response.status} - ${response.statusText}\`\n\n${site.description}`);
+                    replacements.push(`#### [${Sites.marks.warn}](${site.link}) ${site.name} \`${response.status} - ${response.statusText}\`\n\n${site.description}`);
                 }
 
 
