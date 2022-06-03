@@ -9,7 +9,7 @@ If any of them are red. Please let me know :)
 #### [🟩 Personal Website](https://beeps.dev)
 
 My personal website hosted on [NeoCities](https://neocities.org/)
-#### [🟩 awoo.download](https://awoo.download)
+#### [🟨 awoo.download](https://awoo.download) `504 - Gateway Time-out`
 
 Small file sharing service for me and some friends :)
 #### [🟩 awoo.to](https://awoo.to)
@@ -19,7 +19,7 @@ Link shortener, Currently borked
 ## Builds
 ### [beepsdev/BetterKeepInventory](https://github.com/beepsdev/BetterKeepInventory)
 
-`19 hours ago` [Download Build](https://github.com/beepsdev/BetterKeepInventory/suites/6759977326/artifacts/258449407)
+`20 hours ago` [Download Build](https://github.com/beepsdev/BetterKeepInventory/suites/6759977326/artifacts/258449407)
 ### [beepsdev/FiniteNetherite](https://github.com/beepsdev/FiniteNetherite)
 
 `a month ago` [Download Build](https://github.com/beepsdev/FiniteNetherite/suites/6362450050/artifacts/229833502)
