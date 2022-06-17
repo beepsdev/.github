@@ -9,7 +9,7 @@ If any of them are red. Please let me know :)
 #### [🟩 Personal Website](https://beeps.dev)
 
 My personal website hosted on [NeoCities](https://neocities.org/)
-#### [🟩 awoo.download](https://awoo.download)
+#### [🟨 awoo.download](https://awoo.download) `504 - Gateway Time-out`
 
 Small file sharing service for me and some friends :)
 #### [🟨 awoo.to](https://awoo.to) `522 - `
