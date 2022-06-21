@@ -6,13 +6,13 @@ Below is a list of sites I own, and their status.
 If any of them are red. Please let me know :)
 
 
-#### [🟨 Personal Website](https://beeps.dev) `522 - `
+#### [🟨 Personal Website](https://beeps.dev) `500 - Internal Server Error`
 
 My personal website hosted on [NeoCities](https://neocities.org/)
 #### [🟩 awoo.download](https://awoo.download)
 
 Small file sharing service for me and some friends :)
-#### [🟨 awoo.to](https://awoo.to) `524 - `
+#### [🟨 awoo.to](https://awoo.to) `522 - `
 
 Link shortener, Currently borked
 
